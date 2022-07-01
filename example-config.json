@@ -1,0 +1,10 @@
+[
+  {
+    "find": "arn:aws:lambda:[^:]+:[0-9]+:function:[^-]+-foo-bar-baz",
+    "replace": "${arn-lambda-foo-bar-baz}"
+  },
+  {
+    "find": "https://sqs[.][^.]+[.]amazonaws[.]com/[0-9]+/abc",
+    "replace": "${abc}"
+  }
+]
